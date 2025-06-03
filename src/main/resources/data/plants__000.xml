@@ -1,0 +1,26 @@
+<CATALOG uuid="2hk23kj23k23khkjhhf89q" date="12.02.2019" company="Flowers for people">
+	<PLANT>
+		<COMMON>Кровавый корень</COMMON>
+		<BOTANICAL>Sanguinaria canadensis</BOTANICAL>
+		<ZONE>4</ZONE>
+		<LIGHT>По большей части тень</LIGHT>
+		<PRICE>$2.44</PRICE>
+		<AVAILABILITY>031599</AVAILABILITY>
+	</PLANT>
+	<PLANT>
+		<COMMON>Аквилегия</COMMON>
+		<BOTANICAL>Aquilegia canadensis</BOTANICAL>
+		<ZONE>3</ZONE>
+		<LIGHT>По большей части тень</LIGHT>
+		<PRICE>$9.37</PRICE>
+		<AVAILABILITY>030699</AVAILABILITY>
+	</PLANT>
+	<PLANT>
+		<COMMON>Болотная Календула</COMMON>
+		<BOTANICAL>Caltha palustris</BOTANICAL>
+		<ZONE>4</ZONE>
+		<LIGHT>По большей части свет</LIGHT>
+		<PRICE>$6.81</PRICE>
+		<AVAILABILITY>051799</AVAILABILITY>
+	</PLANT>
+</CATALOG>
