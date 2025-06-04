@@ -67,9 +67,13 @@ class Main {
 
     // Поиск файла, выбранного пользователем
     private static File getUserSelectedFile(Scanner sc, File[] files, File dataDir) {
-        System.out.print("\nВведите номер файла (1-" + countFiles(files) + "): ");
+        System.out.print("\nВведите номер файла (1-" + countFiles(files) + ")(0 - выход): ");
         try {
             int selectedNumber = Integer.parseInt(sc.nextLine().trim());
+            if (selectedNumber == 0) {
+                System.out.println("Программа завершена!");
+                System.exit(0);
+            }
             return findSelectedFile(files, selectedNumber, dataDir);
         } catch (NumberFormatException e) {
             System.out.println("Ошибка: введите число");
